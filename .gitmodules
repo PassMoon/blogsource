@@ -1,6 +1,0 @@
-[submodule "blogsource/themes/hugo-theme-comic"]
-	path = blogsource/themes/hugo-theme-comic
-	url = https://gitlab.com/mrubli/hugo-theme-comic.git
-[submodule "blogsource/themes/hugo-theme-stack"]
-	path = blogsource/themes/hugo-theme-stack
-	url = git@github.com:PassMoon/hugo-theme-stack.git
