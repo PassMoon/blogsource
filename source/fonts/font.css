@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'SourceHanSansCN-Normal';
+    font-display: swap;
+    src: url('/fonts/SourceHanSansCN-Normal.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: 'CascadiaCode';
+    font-display: swap;
+    src: url('/fonts/CascadiaCode.ttf') format("truetype");
+  }
