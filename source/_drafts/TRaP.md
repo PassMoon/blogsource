@@ -113,6 +113,16 @@ title: It's a TRaP_Table Randomization and Protection against Function-Reuse Att
 
    目标：证明概率防御可以阻止函数重用攻击。当与内存泄漏弹性代码随机化相结合时，可以防御所有已知的代码重用攻击。
 
+   ![image-20241219195237613](./TRaP/image-20241219195237613.png)
+   
+   (1）分离虚拟表为rvtable（仅读）和xvtable（仅写）两部分。
+   
+   (2) 插入诱捕器到xvtable和PTL中，可防止对手随机执行 vtable 或 PLT 条目以间接泄露表布局，若调用则通知主机系统。
+   
+   (3) 收集元数据信息，TRanslation and Protection (TRaP),嵌入到外部二进制文件修复加载时的随机化。
+   
+   (4) 将运行时随机化引擎RandoLib链接到输出二进制文件中。
+   
    
 
 ## **论文中的攻击模型和假设**
